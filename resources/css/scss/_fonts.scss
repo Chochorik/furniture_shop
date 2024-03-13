@@ -1,0 +1,11 @@
+@import "mixins";
+
+@include font-face("Open Sans", "OpenSans-Light", 300, normal);
+@include font-face("Open Sans", "OpenSans-Regular", 400, normal);
+@include font-face("Open Sans", "OpenSans-SemiBold", 600, normal);
+@include font-face("Open Sans", "OpenSans-Bold", 700, normal);
+
+@include font-face("PlayFair", "playfairdisplay-bold-webfont", 700, normal);
+@include font-face("PlayFair", "playfairdisplay-black-webfont", 900, normal);
+
+

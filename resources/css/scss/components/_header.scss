@@ -1,0 +1,108 @@
+.header {
+    &__background {
+        padding: 14px 0;
+        background-color: var(--light-grey);
+    }
+
+    &__bottom {
+        padding: 32px 0;
+    }
+
+    &__tel {
+        padding-left: 22px;
+        grid-column: span 2;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        color: var(--orange-color);
+        background-image: url("/storage/mdi_call.svg");
+        background-repeat: no-repeat;
+        background-position: center left;
+        background-size: 17px;
+    }
+
+    &__logo {
+        grid-column: span 2;
+    }
+
+    &__container-top, &__container-bottom {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__links {
+        grid-column: 6/13;
+        justify-self: end;
+        display: flex;
+        align-items: center;
+    }
+
+    &__link-top {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        color: var(--medium-grey);
+    }
+
+    &__link-top:not(:last-child) {
+        margin-right: 64px;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        grid-column: 4/13;
+    }
+
+    &__main-link {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        color: var(--dark-grey);
+    }
+
+    &__search-container {
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 32px;
+    }
+
+    &__search-label {
+        position: relative;
+        grid-column: span 10;
+    }
+
+    &__search {
+        width: 100%;
+        height: 60px;
+        padding: 18px 32px 18px 59px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        background-color: var(--light-grey);
+    }
+
+    &__search-button {
+        position: absolute;
+        cursor: pointer;
+        top: 25%;
+        right: 32px;
+    }
+
+    &__search-icon {
+        position: absolute;
+        top: 20px;
+        left: 32px;
+    }
+
+    &__personal-block {
+        display: flex;
+        justify-self: end;
+        grid-column: span 2;
+    }
+
+    &__profile-button {
+        margin-right: 32px;
+        cursor: pointer;
+    }
+}

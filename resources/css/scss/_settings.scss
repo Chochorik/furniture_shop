@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.body {
+    font-family: $fonts;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 32px;
+}
+
+.container {
+    padding: 0 120px;
+    margin: 0 auto;
+    overflow: hidden;
+}

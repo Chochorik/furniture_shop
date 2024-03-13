@@ -20,6 +20,15 @@ export default {
     </section>
 </template>
 
-<style scoped>
-
+<style lang="scss" scoped>
+.special-offers {
+    &__title {
+        margin-bottom: 26px;
+        grid-column: span 5;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 32px;
+        color: var(--dark-grey);
+    }
+}
 </style>

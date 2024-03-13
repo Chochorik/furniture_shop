@@ -3,7 +3,9 @@ import MainSpecialItems from "@/Components/main/MainSpecialItems.vue";
 
 export default {
     name: "MainSpecialList",
-    components: {MainSpecialItems}
+    components: {
+        MainSpecialItems,
+    }
 }
 </script>
 
