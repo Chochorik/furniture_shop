@@ -18,9 +18,4 @@ export default defineConfig({
             },
         }),
     ],
-    sass() {
-        return {
-            prependData: `@import "./resources/css/scss/app.scss";`,
-        };
-    },
 });
